@@ -5,8 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>abbr tag</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
+  <section>
+    <h1>文字中含有縮寫時</h1>
+    <p>The
+      <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr>
+      started working on HTML5 in 2004.</p>
+  </section>
+  <section>
+    <h1>樣式調整</h1>
+    <form>
+      <div>
+        <label for="username">Name <abbr title="required">*</abbr></label>
+        <input id="username" type="text" name="username">
+      </div>
+    </form>
+  </section>
 </body>
 </html>
